@@ -23,9 +23,17 @@
 		/* Content Positioning and Size */
 		nav		        { float: left; margin-left: -200px; width: 175px; }
 		#content		{ margin: 0 215px 36px 215px; }
-		#extra			{ float: left; margin-left: -742px; width: 175px; }		/* Footer */
+		#extra			{ float: left; margin-left: -742px; width: 175px; }		
+        
+        /* Footer */
 		footer			{ background: #666; border-bottom: 2px solid #aaa; clear: left; width: 100%; }
 		footer a		{ color: #fff; }
-		footer	p		{ color: #ccc; margin: 0; padding: 0 18px 10px; }
-		footer ul		{ border-bottom: 1px solid #999; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px; }
+		footer p		{ color: #ccc; margin: 0; padding: 0 18px 10px; }
+		footer ul		{ border-bottom: 1px solid #999; list-style: none; margin: 0 18px 6px; padding: 10px 0 6px ; }
 		footer li		{ display: inline; font-size: 11px; font-weight: bold; padding-right: 5px; }
+
+        /* Image */
+        div.img         { margin:2px;  border:1px solid #666666; height:auto; width:auto; float:left; text-align:center; }
+        div.img img     { display:inline; margin:3px; border:1px solid #ffffff; }
+        div.img a:hover img  {  border:1px solid #FF0000; }
+        div.desc        { text-align:center; font-weight:normal; width:120px;  margin:2px; }
