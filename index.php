@@ -1,11 +1,15 @@
-<html>
- <head>
-  <title>PHP Test</title>
- </head>
- <body>
- <?php echo '<p>Hello World Ponnu!</p>'; 
-// prints something like: Wednesday the 15th
-echo date('l \t\h\e jS');
-?>
- </body>
-</html>
+
+	<html>
+	<head>
+	<title>My first PHP page</title>
+	</head>
+	<body>
+
+	<?php   
+
+	echo "<h1>Hello Project 1 of CSCIE-15!</h1>";
+
+	?>
+
+	</body>
+	</html>
